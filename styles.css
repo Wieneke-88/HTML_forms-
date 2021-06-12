@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+    color: darkgoldenrod; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.2; 
+}
+main{
+    background-color: whitesmoke;
+    color: darkslategray; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.boxmodel-properties{
+    border: 5px goldenrod solid;
+    padding: 20px 10px; 
+    margin: 20px; 
+}
+.center-title{
+    color: goldenrod solid; 
+    font-size: 30px;
+    width: 400px;
+    margin: 0 auto;
+}
+.navigation-links {
+    padding: 0;
+    font-size: 16px; 
+    width: 50%; 
+    display: inline;
+    margin: 0 auto;
+}
+.navigation-links li{
+    display: inline;
+    margin: 20px; 
+}
+.container{
+    width:70%;
+    margin:auto;
+}
+
+.box-1{
+    border: 5px goldenrod solid; 
+    padding: 20px;
+    margin: 20px; 
+}
+
+.box-2 h1{
+    border: 10px olive solid; 
+    padding: 20px; 
+    margin: 20px; 
+}
+
+@media (min-width: 1024px) { 
+    body { 
+    background-color: whitesmoke;  
+    color: darkslategray; 
+    font-size: 9px; 
+    line-height: 1.75;         
+    }
+    main {
+        background-color: whitesmoke; 
+        color: darkslategray;
+        font-size: 9px; 
+    }
+    .center-title{ 
+        width: 600px; 
+        color: goldenrod solid; 
+    }
+}
